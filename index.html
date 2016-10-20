@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Code Test 2</title>
+	<!-- bower:css -->
+	<link rel="stylesheet" href="bower_components/angular-toastr/dist/angular-toastr.css" />
+	<link rel="stylesheet" href="bower_components/animate.css/animate.css" />
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+	<link rel="stylesheet" href="bower_components/toastr/toastr.css" />
+	<!-- endbower -->
+
+	<!-- inject:css -->
+	<!-- endinject -->
+</head>
+<body>
+<div class="container-fluid">
+	<div> <!-- JavaScript questions -->
+		<h1 class="text-center">JavaScript</h1>
+			<b>1.</b> <div id="para1"></div><br>
+
+			<div><b>2.</b> 
+						<div id="string"> Origin Code Academy Rocks! </div>
+			</div><br>
+
+			<div><b>3.</b> Check console log for bubble sort</div>
+	</div> <!-- closes JavaScript div -->
+
+	<div> <!-- JQuery questions -->
+		<h1 class="text-center">JQuery</h1>
+			<div><b>1.</b> 
+					<div id="bold">
+						<p>Beach Towel</p>
+						<p>Suntan Lotion</p>
+						<p>Mask, Fins and Snorkel</p>
+						<p>Boogie Board</p>
+					</div>
+			</div><br>
+
+			<div><b>2.</b>
+					<div>
+						<p id="click" class="text-center"><u><b>Click Me!</b></u></p>
+						<p id="body" class="text-center"></p>
+						<p id="dblclick" class="text-center"><u><b>Double Click Me!</b></u></p>
+						<p id="dblbody" class="text-center"></p>
+					</div>
+			</div><br>
+
+			<div><b>3.</b> 
+					<div>
+						<div style="background-color: red" class="text-center" id="color">
+							<p>Click the button to change the background color of this paragraph.</p>
+							<button id="button">Change Color</button>
+						</div>
+					</div>
+			</div>
+	</div> <!-- closes JQuery div -->
+
+	<div> <!-- AngularJS questions -->
+		<h1 class="text-center">AngularJS Q&A</h1>
+			<div><b>1. How do you define an AngularJS application?</b></div>
+							Assigning the ng-app directive defines an AngularJS application.<br><br>
+
+			<div><b>2. What is a controller?</b></div>
+							A controller is a JavaScript Object containing attributes, properties and functions and is defined using ng-controller directive.<br><br>
+
+			<div><b>3. What does ng-model do?</b></div>
+							The ng-model directive binds the value of HTMl controls (input, select, textarea) to application data.<br><br>
+
+			<div><b>4. What is interpolation markup?</b></div>
+							Interpolation markup is used by AngularJS to provide data-binding to text nodes and attributes values.<br><br>
+
+			<div><b>5. What is $scope?</b></div>
+							$scope is the link between your view and controller. Any property that the HTML evaluates is evaluated on a particular scope.<br><br>
+
+			<div><b>6. What is dependency injection?</b></div>
+							Dependency Injection is a software desing pattern in which components are given their dependencies instead of hard coding them within the components.<br><br>
+
+			<div><b>7. What is two-way binding?</b></div>
+							Two-way binding is the synchronization between the model and the view.<br><br>
+
+			<div><b>8. What is 'controller as' syntax?</b></div>
+							The 'controller as' syntax defines a named scope and you can use this with the help of ng-controler directive. It defines properties on the functions (controller), not the $scope.<br><br>
+
+			<div><b>9. What is MV* architecture</b><div>
+							MV*(Whatever) or Model View Whatever is a term used to indicate the capability of the framework being used to give the option to choose from MVC or MVVM approaches. Whatever is a term used to say you can used what system works for you.<br><br>
+								
+			<div><b>10. What is the difference between a service and a factory?</b></div>
+							Factory can be used when you have a constructor function which needs to be instantiated in different controllers. Service is a kind of singelton object. The object return from Service will be same for all controller.<br><br>
+	</div> <!-- closes AngularJS div -->
+</div>
+
+	<!-- bower:js -->
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+	<script src="bower_components/angular-toastr/dist/angular-toastr.tpls.js"></script>
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/toastr/toastr.js"></script>
+	<!-- endbower -->
+
+	<!-- inject:js -->
+	<script src="/app/JavaScript1.js"></script>
+	<script src="/app/JavaScript2.js"></script>
+	<script src="/app/JavaScript3.js"></script>
+	<script src="/app/JQuery.js"></script>
+	<!-- endinject -->
+</body>
+</html>
